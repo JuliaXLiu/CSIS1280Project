@@ -1,0 +1,471 @@
+/* Logo */
+.content_wrap_middle {
+  text-align: center;
+  margin: 0 auto;
+}
+.content_wrap_middle img {
+  width: 250px;
+}
+
+/* menu navigation */
+
+.search_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.search_form_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search_form button {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search_field {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.search_result_close {
+  color: #999;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* CSS cho giỏ hàng */
+.menu_main_cart {
+  position: relative;
+}
+
+.menu_main_cart a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu_main_cart .contact_label {
+  margin-right: 5px;
+}
+
+.menu_main_cart .contact_cart_totals {
+  font-weight: bold;
+}
+
+/* CSS cho banner nổi bật */
+.slider_wrap {
+  height: 300px;
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.main_body {
+  margin: auto;
+  max-width: 40%;
+}
+
+/* CSS cho phần nổi bật */
+.columns_wrap {
+  display: flex;
+}
+.column_item_1,
+.column_item_2,
+.column_item_3,
+.column_item_4 {
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  margin: 10px;
+  transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  width: 30%;
+}
+.column_item_1:hover,
+.column_item_2:hover,
+.column_item_3:hover,
+.column_item_4:hover {
+  transform: scale(1.05);
+}
+
+.column_item_1 {
+  background-image: url(https://yamahaden.com/wp-content/uploads/2024/07/piano-key-light-1024x683.webp);
+  background-size: cover;
+  height: 250px;
+}
+.column_item_2 {
+  background-image: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  height: 250px;
+}
+.column_item_3 {
+  background-image: url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  height: 250px;
+}
+.column_item_4 {
+  background-image: url(https://media.istockphoto.com/id/1283143454/photo/blue-musical-instrument-wall.jpg?s=612x612&w=0&k=20&c=GUM896i6A0-tWLBWKQwtiI3hdq6clqux8TvJ9-wfa7g=);
+  background-size: cover;
+  height: 250px;
+}
+
+.sc_intro_title .title {
+  font-size: 24px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.sc_intro_descr {
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+/* CSS cho phần sản phẩm bán chạy (Best Sellers) */
+#sc_section_inner_line h2 {
+  background: #141618;
+  line-height: 3px;
+  text-align: center;
+}
+.sc_section_title {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px 0;
+  color: whitesmoke;
+}
+.sc_section_title .title {
+  background-color: #fff;
+  padding: 10px;
+}
+.sc_intro_content {
+  color: whitesmoke;
+}
+.text {
+  color: whitesmoke;
+}
+#Bestseller_article {
+  display: grid;
+}
+
+.best_seller_card {
+  display: flex;
+}
+.myportfolio_contaainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.best_seller_article_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.best_seller_article_nav_filter_wrapper {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+.best_seller_article_nav_right,
+.best_seller_article_nav_left {
+  color: #333;
+}
+
+.best_seller_card_1,
+.best_seller_card_2,
+.best_seller_card_3,
+.best_seller_card_4,
+.best_seller_card_5,
+.best_seller_card_6 {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.best_seller_card_1:hover,
+.best_seller_card_2:hover,
+.best_seller_card_3:hover,
+.best_seller_card_4:hover,
+.best_seller_card_5:hover,
+.best_seller_card_6:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.title {
+  color: #333;
+}
+.like,
+.cart {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+}
+
+.card__img img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card__price {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.star_rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5a623;
+  font-size: 14px;
+}
+
+.star {
+  margin: 0 2px;
+}
+
+.card__action button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.card__action button:hover {
+  background-color: #555;
+}
+
+/* Banner Section */
+
+.banner_item1,
+.banner_item2,
+.banner_item3 {
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  margin: 10px;
+  transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  width: 30%;
+}
+.banner_item1:hover,
+.banner_item2:hover,
+.banner_item3:hover {
+  transform: scale(1.05);
+}
+.banner_item1 {
+  background-image: url(https://images.unsplash.com/photo-1713450604847-9199723962ea?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  height: 250px;
+}
+.banner_item2 {
+  background-image: url(https://digitalwalker.ph/cdn/shop/products/MARSPESTANMOREIIIBLACK3_1000x1000.png?v=1714728042);
+  background-size: cover;
+  height: 250px;
+}
+
+.banner_item3 {
+  background-image: url(https://images.unsplash.com/photo-1525183480399-e8706926adac?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  height: 250px;
+}
+.title_banner_item_2 {
+  background: red;
+  padding: 20px;
+  border-radius: 50%;
+}
+.sc_section_banner {
+  text-align: center;
+  margin: 20px 0;
+  color: whitesmoke;
+}
+.banner_intro_title .title {
+  color: #fff;
+  padding: 10px;
+}
+.banner_intro_content {
+  color: whitesmoke;
+}
+.text {
+  color: whitesmoke;
+}
+
+.register_button,
+.play_button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.register_button {
+  background-color: #f00;
+  color: #fff;
+}
+
+.play_button {
+  background-color: #333;
+  color: #fff;
+}
+.banner {
+  background: #000;
+  max-width: 2000px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 30px auto;
+  height: 500px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1643479669808-3312ff4e1f7f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.banner_content {
+  margin: auto;
+}
+
+.banner_content h2 {
+  font-size: 40px;
+  font-family: inherit;
+  padding: 15px;
+}
+.Free_workshop {
+  font-size: 20px;
+  font-family: inherit;
+  color: red;
+  margin-bottom: 15px;
+}
+.banner_content_p {
+  margin-bottom: 15px;
+  width: 600px;
+}
+.whats_new h2 {
+  margin: 40px auto;
+}
+
+.new_items {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background: #f8f8f8;
+  padding: 20px 0;
+}
+
+.item {
+  position: relative;
+  text-align: center;
+  width: 30%;
+  display: flex;
+}
+
+.item:hover img {
+  transform: scale(1.1);
+}
+
+.image_container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+.image_container .icon-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  background-color: var(--wc-red);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.image_container:hover .icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new_items_content {
+  text-align: left;
+  margin: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.newsletter {
+  background: #f04;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  color: #f04;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter button:hover {
+  background: #ddd;
+}
