@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bags and Cases</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/BagsandCases.css" />
+    <link rel="stylesheet" href="css/product.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -141,7 +141,7 @@
                 <button type="submit">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <input type="text" class="search_field" placeholder="Search" />
+                <input type="text" id="search" class="search_field" placeholder="Search" />
               </form>
             </div>
             <div class="search_result">
@@ -157,209 +157,197 @@
       <h1 class="page_title">Bags and Cases</h1>
       <div class="content_wrapper">
         <!-- Products Section -->
-        <div class="Feature_items">
-          <div class="wpb_wrapper">
-            <div class="sc_section_block">
-              <div class="sc_section_inner" id="sc_section_inner_line">
-                <div class="sc_section_content_wrap">
-                  <div id="Bestseller_article" class="myportfolio_contaainer">
-                    <div class="best_seller_card">
-                      <div class="best_seller_card_1">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://media.musicshop360.com/6719/pb322.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Protec Marching Baritone Pro Pac Case
-                        </h3>
-                        <p class="card__price">$299.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_2">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://media.rainpos.com/6719/pl251.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Protec Smaller Tuba Bag<br />5-Piece,22 inches
-                        </h3>
-                        <p class="card__price">$319.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_4">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img src="./image/2.jpg" alt="" />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Custom Zone 6-String Full-Size Electric Guitar
-                        </h3>
-                        <p class="card__price">$1,399</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img src="./image/6.jpg" alt="" />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          New Trumpet Gig Bag Case with Nylon
-                        </h3>
-                        <p class="card__price">$78.00</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img src="./image/3.jpg" alt="" />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Protec Delux Trumpet Bag Instrument Case
-                        </h3>
-                        <p class="card__price">$47.50</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img src="./image/1.jpg" alt="" />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Crosley Cruiser Portable 3-Speed Tumtable
-                        </h3>
-                        <p class="card__price">$349.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="best_seller_card">
+          <div class="best_seller_card_1 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://media.musicshop360.com/6719/pb322.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Protec Marching Baritone Pro Pac Case
+            </h3>
+            <p class="card__price">$299.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_2 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://media.rainpos.com/6719/pl251.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Protec Smaller Tuba Bag<br />5-Piece,22 inches
+            </h3>
+            <p class="card__price">$319.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_4 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img src="./image/2.jpg" alt="" />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Custom Zone 6-String Full-Size Electric Guitar
+            </h3>
+            <p class="card__price">$1,399</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_6 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img src="./image/6.jpg" alt="" />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              New Trumpet Gig Bag Case with Nylon
+            </h3>
+            <p class="card__price">$78.00</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_6 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img src="./image/3.jpg" alt="" />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Protec Delux Trumpet Bag Instrument Case
+            </h3>
+            <p class="card__price">$47.50</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_6 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img src="./image/1.jpg" alt="" />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Crosley Cruiser Portable 3-Speed Tumtable
+            </h3>
+            <p class="card__price">$349.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
             </div>
           </div>
         </div>
+                  
 
-        <!-- Sidebar -->
+      <!-- Sidebar -->
         <aside class="sidebar">
           <div class="cart">
             <h3>Cart</h3>
@@ -367,8 +355,9 @@
           </div>
           <div class="filter">
             <h3>Filter by Price</h3>
-            <input type="range" min="10" max="500" value="250" />
-            <button>Filter</button>
+            <p>value: <span id="value">1500</span></p>
+            <input id="input_v" type="range" min="10" max="1500" value="1500" step="10" />
+            <button id="btnFilter" >Filter</button>
           </div>
           <div class="new_arrivals">
             <h3>New Arrivals</h3>
@@ -391,6 +380,7 @@
             <span>Piano</span>
           </div>
         </aside>
+          
       </div>
     </main>
 
@@ -405,4 +395,5 @@
       </nav>
     </footer>
   </body>
+  <script src="js/search.js"></script>
 </html>

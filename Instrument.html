@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sound Instrument Store</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/Instruments.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
   </head>
   <body>
     <!-- Header -->
@@ -140,7 +137,7 @@
                 <button type="submit">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <input type="text" class="search_field" placeholder="Search" />
+                <input id="search" type="text" class="search_field" placeholder="Search" />
               </form>
             </div>
             <div class="search_result">
@@ -156,248 +153,226 @@
       <h1 class="page_title">Instruments</h1>
       <div class="content_wrapper">
         <!-- Products Section -->
-        <div class="Feature_items">
-          <div class="wpb_wrapper">
-            <div class="sc_section_block">
-              <div class="sc_section_inner" id="sc_section_inner_line">
-                <div class="sc_section_content_wrap">
-                  <div id="Bestseller_article" class="myportfolio_contaainer">
-                    <div class="best_seller_card">
-                      <div class="best_seller_card_1">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://guitarworks.ca/cdn/shop/products/v0dbhy963yxack9sgvsp_2000x.jpg?v=1624637792"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Yamaha Pacifica PAC112V Black Electric Guitar
-                        </h3>
-                        <p class="card__price">$399.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_2">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://m.media-amazon.com/images/I/71F5ahb3UnL.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          VEVOR Adult Drum Set<br />5-Piece,22 inches
-                        </h3>
-                        <p class="card__price">$489.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_4">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9229X3LapvTRBh_EexY5pv_hYBbju-V1RsA&s"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Meinl Cymbals Arena Marching Cymbals Pair
-                        </h3>
-                        <p class="card__price">$349.99 - $369.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_5">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://m.media-amazon.com/images/I/61FjW2wNdsL._AC_UF1000,1000_QL80_.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Crosley Cruiser Portable 3-speed Tumtable
-                        </h3>
-                        <p class="card__price">$349.99 - $449.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://www.tomleemusic.ca/media/catalog/product/cache/7b59eeedc8a9391b10c489498e31e772/s/o/soyuz017-tube.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Soyuz Tube Condenser Microphone
-                        </h3>
-                        <p class="card__price">$846.99 - $948.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://www.lamusic.com/cdn/shop/products/DAPLSD300MAHCP_hqw-6_3600x3600.jpg?v=1615290331"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Gibson Custom LS Premier Acoustic Guitar
-                        </h3>
-                        <p class="card__price">$1,299.99 - $1,329.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                      <div class="best_seller_card_6">
-                        <span class="like"
-                          ><i class="fa-solid fa-heart"></i
-                        ></span>
-                        <span class="cart"
-                          ><i class="fa-solid fa-cart-shopping"></i
-                        ></span>
-                        <div class="card__img">
-                          <img
-                            src="https://i.ebayimg.com/images/g/ihEAAOSwer1im0-n/s-l500.jpg"
-                            alt=""
-                          />
-                          <a href="https://example.com" class="icon-link">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                        <h3 class="card__title">
-                          Tana S.L.P Big Black Steel Snare Drum
-                        </h3>
-                        <p class="card__price">$249.99</p>
-                        <div class="star_rating">
-                          <h3>Customer review:</h3>
-                          <span class="star" data-value="5">&#9733;</span>
-                          <span class="star" data-value="4">&#9733;</span>
-                          <span class="star" data-value="3">&#9733;</span>
-                          <span class="star" data-value="2">&#9733;</span>
-                          <span class="star" data-value="1">&#9733;</span>
-                        </div>
-                        <div class="card__action">
-                          <button>Buy now</button>
-                          <button>Add cart</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="best_seller_card">
+          <div class="best_seller_card_1 card">
+            <span class="like"><i class="fa-solid fa-heart"></i></span>
+            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
+            <div class="card__img">
+              <img src="https://guitarworks.ca/cdn/shop/products/v0dbhy963yxack9sgvsp_2000x.jpg?v=1624637792"
+                alt=""/>
+              <a href="" class="icon-link"><i class="fa fa-link"></i>              </a>
+            </div>
+            <h3 class="card__title">Yamaha Pacifica PAC112V Black Electric Guitar</h3>
+            <p class="card__price">$399.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_2 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://m.media-amazon.com/images/I/71F5ahb3UnL.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              VEVOR Adult Drum Set<br />5-Piece,22 inches
+            </h3>
+            <p class="card__price">$489.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_3 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9229X3LapvTRBh_EexY5pv_hYBbju-V1RsA&s"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Meinl Cymbals Arena Marching Cymbals Pair
+            </h3>
+            <p class="card__price">$369.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_4 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://m.media-amazon.com/images/I/61FjW2wNdsL._AC_UF1000,1000_QL80_.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Crosley Cruiser Portable 3-speed Tumtable
+            </h3>
+            <p class="card__price">$449.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_5 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://www.tomleemusic.ca/media/catalog/product/cache/7b59eeedc8a9391b10c489498e31e772/s/o/soyuz017-tube.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Soyuz Tube Condenser Microphone
+            </h3>
+            <p class="card__price">$948.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_6 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://www.lamusic.com/cdn/shop/products/DAPLSD300MAHCP_hqw-6_3600x3600.jpg?v=1615290331"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Gibson Custom LS Premier Acoustic Guitar
+            </h3>
+            <p class="card__price">$1,329.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
+            </div>
+          </div>
+          <div class="best_seller_card_6 card">
+            <span class="like"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <span class="cart"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card__img">
+              <img
+                src="https://i.ebayimg.com/images/g/ihEAAOSwer1im0-n/s-l500.jpg"
+                alt=""
+              />
+              <a href="https://example.com" class="icon-link">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            <h3 class="card__title">
+              Tana S.L.P Big Black Steel Snare Drum
+            </h3>
+            <p class="card__price">$249.99</p>
+            <div class="star_rating">
+              <h3>Customer review:</h3>
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <div class="card__action">
+              <button>Buy now</button>
+              <button>Add cart</button>
             </div>
           </div>
         </div>
@@ -410,8 +385,9 @@
           </div>
           <div class="filter">
             <h3>Filter by Price</h3>
-            <input type="range" min="10" max="500" value="250" />
-            <button>Filter</button>
+            <p>value: <span id="value">1500</span></p>
+            <input id="input_v" type="range" min="10" max="1500" value="1500" step="10" />
+            <button id="btnFilter" >Filter</button>
           </div>
           <div class="new_arrivals">
             <h3>New Arrivals</h3>
@@ -448,4 +424,5 @@
       </nav>
     </footer>
   </body>
+  <script src="js/search.js"></script>
 </html>
