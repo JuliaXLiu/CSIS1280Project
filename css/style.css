@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --wc-red: #a00;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  line-height: 1.714em;
+  font-weight: 400;
+  background-color: #ffff;
+  position: relative;
+  height: 100vh;
+}
+/*nav */
+.menu_main_nav {
+  background-color: #333;
+}
+
+#menu_main {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 70%;
+  font-size: 1em;
+}
+
+#menu_main > li {
+  position: relative;
+}
+
+.menu_item,
+.home_with_ul {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu_item:hover,
+.home_with_ul:hover {
+  background-color: #575757;
+}
+
+.sub_menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  min-width: 200px;
+}
+
+#menu_main > li:hover > .sub_menu {
+  display: block;
+}
+
+.sub_menu > li {
+  list-style: none;
+}
+
+.sub_menu a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.sub_menu a:hover {
+  background-color: #666;
+}
+.drop_down li {
+  list-style: none;
+  padding: 10px;
+}
+
+/* Top pannel */
+.content_wrap_top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1c1f;
+  color: #cccccc;
+  line-height: 1.33em;
+  font-size: 0.85em;
+  position: relative;
+  padding: auto;
+  text-align: center;
+}
+
+.top_panel_top_contact_area {
+  padding: 1em 0;
+  letter-spacing: 0.05em;
+  margin-left: 2.75em;
+}
+.top_panel_top_user_area {
+  text-align: left;
+  position: relative;
+  margin-left: 2.75em;
+  line-height: 1.33em;
+  padding: 1em 0;
+  letter-spacing: 0.05em;
+}
+#top_support {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.top_phone {
+  margin-right: 20px;
+}
+.content_wrap_top i {
+  color: var(--wc-red);
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer nav {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer p {
+  font-size: 14px;
+}
